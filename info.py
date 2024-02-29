@@ -14,12 +14,12 @@ def is_enabled(value, default):
 SESSION = "Media_search"
 API_ID = int(6129258)
 API_HASH = "9e4430929d7757512f864d160dac0a98"
-BOT_TOKEN = "7120427654:AAHUG8McGiX7lqdGxq1QT0p74GH32gIytD4"
+BOT_TOKEN = "7120427654:AAH6TnQgJErMmO0tS-oW5tYW0Lp8m19YDhU"
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = True 
-PICS = (environ.get('PICS', 'https://telegra.ph/file/286801e61b556c4be376a.jpg')).split()
+PICS = (environ.get('PICS', 'https://graph.org/file/efc2a34ed5c75d44c1ed5.jpg')).split()
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6791777555').split()]
