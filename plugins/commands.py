@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('🤖 Updates', url='https://t.me/FILMCORNERALL')
+                InlineKeyboardButton('🤖 Updates', url='https://t.me/noobsoftelegram')
             ],
             [
                 InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -44,8 +44,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton("➕️ 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ➕️", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton("📯 𝙶𝚁𝙾𝚄𝙿", url="https://t.me/Filmcornerofficialgroup"), 
-            InlineKeyboardButton("📢 𝚄𝙿𝙳𝙰𝚃𝙴𝚂", url="https://t.me/FILMCORNERALL")
+            InlineKeyboardButton("📯 𝙶𝚁𝙾𝚄𝙿", url="https://t.me/+afRMp2RzYAA2MTU1"), 
+            InlineKeyboardButton("📢 𝚄𝙿𝙳𝙰𝚃𝙴𝚂", url="https://t.me/noobsoftelegram")
             ],[      
             InlineKeyboardButton("ℹ️ 𝙷𝙴𝙻𝙿", callback_data="help"),
             InlineKeyboardButton("📡 𝙰𝙱𝙾𝚄𝚃", callback_data="about")
@@ -90,8 +90,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton("➕️ 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ➕️", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton("📯 𝙶𝚁𝙾𝚄𝙿", url="https://t.me/Filmcornerofficialgroup"), 
-            InlineKeyboardButton("📢 𝚄𝙿𝙳𝙰𝚃𝙴𝚂", url="https://t.me/FILMCORNERALL")
+            InlineKeyboardButton("📯 𝙶𝚁𝙾𝚄𝙿", url="https://t.me/+afRMp2RzYAA2MTU1"), 
+            InlineKeyboardButton("📢 𝚄𝙿𝙳𝙰𝚃𝙴𝚂", url="https://t.me/noobsoftelegram")
             ],[      
             InlineKeyboardButton("ℹ️ 𝙷𝙴𝙻𝙿", callback_data="help"),
             InlineKeyboardButton("📡 𝙰𝙱𝙾𝚄𝚃", callback_data="about")
