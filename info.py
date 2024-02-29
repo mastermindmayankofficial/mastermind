@@ -34,7 +34,7 @@ AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 # MongoDB information
 DATABASE_URI = "mongodb+srv://Hemanth:Hemanth@cluster0.uzzh3.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 DATABASE_NAME = "cluster0"
-COLLECTION_NAME = "Telegram_files"
+COLLECTION_NAME = "anime_files"
 
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002026653434'))
